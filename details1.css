@@ -1,0 +1,50 @@
+.detailed-product{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.view-product img{
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 10px 10px gray;
+}
+.order-control{
+    background-color: white;
+    align-items: center;
+    height: fit-content;
+}
+.order-control h2{
+    margin-left: 100px;
+}
+.form-group{
+    display: flex;
+    margin-top: 20px;
+}
+.product-specification{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+
+.product-specification .heading{
+    background-color: rgb(228, 222, 222);
+    text-align: center;
+    font-size: 14px;
+    
+}
+.product-specification .desc{
+    background-color: #ffffff;
+    padding-left: 10px;
+    font-size: 14px;
+    
+}
+.confirm{
+    display: flex;
+}
+.confirm img{
+    height: 400px;
+    width: 400px;
+}

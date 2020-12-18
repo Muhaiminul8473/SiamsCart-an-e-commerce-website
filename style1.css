@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+}
+#n{
+    color:#ffffff;
+}
+
+
+#trust{
+    color: white;
+    font-size: 11px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+#contact-no{
+    color: white;
+    margin-right: 100px;
+}
+#contact-no:hover{
+    cursor: pointer;
+}
+#contact-no img{
+ 
+    margin-right: 10px;
+    filter: invert(100%);
+    width: 25px;
+    height: 25px;
+}
+
+
+#logo{
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+    
+}
+#logo:hover{
+    cursor: pointer;
+}
+
+
+#siamscart{
+    
+    color: rgb(30, 15, 241);
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#login{
+    
+    margin: 4px;
+    width: 100px;
+}
+#signup{
+    margin: 4px;
+    width: 100px;
+}
+.menubar{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 120px;
+
+
+}
+.menuleft{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    
+}
+.profile img{
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+    margin: 5px;
+}
+
+#logout{
+    margin-right: 100px;
+}
+
+#logout img{
+    
+    width: 20px;
+    height: 20px;
+    filter: invert(100%);
+    margin: 5px;
+}
+.menumiddle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.banner{
+    margin-top: 10px;
+    background-color: white;
+    border: 10px 10px 10px gray;
+    width: 100%;
+    height: 60px;
+}
+.banner marquee{
+    color:#007bff;
+    font-size: xx-large;
+}
+.menumiddle .items{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+
+.menumiddle .items div{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    transition-property: all;
+    transition-duration: 1s;
+    border-bottom: 2px solid transparent;
+}
+.items div:hover{
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 2px solid green;
+}
+
+.menuright img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.menuright button{
+    
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 60px;
+    
+}
+#separator{
+    width: 100%;
+    height: 0.5px;
+    background-color: silver;
+}
+
+
+
+.carou{
+    width: 86%;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.advantage{
+    margin-top: 50px;
+    display: flex;
+}
+.advantage h4{
+    color: #007bff;
+}
+.box{
+    background-color:#ffffff;
+    height: 200px;
+    width: 33%;
+    margin: 10px;
+    display: flex;
+    box-shadow: 10px 10px 10px gray;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product img{
+    width: 100px;
+    height: 200px;
+}
+
+.headlines{
+    margin-top: 30px;
+    display: flex;
+    background-color:#ffffff;
+    color: #007bff;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.latest{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.latest .card{
+    margin-bottom: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.latest img{
+    width: 246px;
+    height: 240px;
+}
+.latest .card-title{
+    height: 50px;
+}
+.latest .card-text{
+    height: 120px;
+}
+.latest .card:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.carousel-inner .row img{
+    height: 300px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.carousel-inner .row img:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px grey;
+    
+}
+.footer{
+    margin-top: 30px;
+    padding-top: 10px;
+    background-color: #130e0e;
+    display: flex;
+
+}
+.footer .sites img{
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+}
+.footer .labels{
+    margin:10px;
+    color: #ffffff;
+}
+

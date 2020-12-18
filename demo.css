@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#trust{
+    color: white;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+#logo{
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+
+
+#siamscart{
+    margin-left: 60px;
+    color: rgb(30, 15, 241);
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+
+    
+
+}
+
+#login{
+    
+    margin: 4px;
+    width: 100px;
+}
+#signup{
+    margin: 4px;
+    width: 100px;
+}
+.menubar{
+    margin-top: 10px auto;
+    display: flex;
+    width: 100%;
+    height: 130px;
+}
+.menuleft{
+    border: 2px solid black;
+    
+}
+.menumiddle{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    text-align: center;
+}
+.menuright{
+    border:  2px solid black;
+}
+.items{
+
+    display: flex;
+    margin-top: 50px;
+    
+    
+}
+.items div{
+    margin-left: 30px;
+    height: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+    border-bottom: 2px solid transparent;
+}
+.items div:hover{
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 2px solid green;
+}
+
+
+.menuright img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.menuright button{
+    
+    height: 45px;
+    margin-top: 30px;
+    
+}
+.separator{
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    background-color: rgb(189, 189, 189);
+    height: 1px;
+}
+.banner{
+    margin-top: 20px;
+    width: 80%;
+    height: fit-content;
+    background-color: rgb(251, 255, 4);
+
+}
+.banner marquee{
+    color: red;
+    font-size: large;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
